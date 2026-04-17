@@ -1,0 +1,72 @@
+# Python cache / build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Test / coverage cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# IDE / editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Local tool state
+.codex
+
+# Logs
+*.log
+*.log.*
+log/
+logs/
+run_train/log/
+scripts/log/
+
+# TensorBoard / experiment tracking
+events.out.tfevents*
+tensorboard_log/
+run_train/tensorboard_log/
+scripts/tensorboard_log/
+
+
+# Large ML artifacts
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.pkl
+*.pickle
+*.joblib
+*.npy
+*.npz
+
+
+# Archives / temporary files
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+*.tmp
+*.temp
+
+/prottrans
+/procedure_parameter
