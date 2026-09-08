@@ -48,6 +48,7 @@ scripts/tensorboard_log/
 
 # Large ML artifacts
 *.pt
+!/data/model.pt
 *.pth
 *.ckpt
 *.onnx
