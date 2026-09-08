@@ -104,7 +104,7 @@ See [requirements.txt](./requirements.txt) for the exact package list.
 
 ### ProtTrans Model
 
-For automatic generation of `.h5` sequence embeddings, the repository expects the local ProtT5 model under:
+For automatic generation of `.h5` sequence embeddings, the repository expects the local ProtT5 model ([prottrans.zip](https://zenodo.org/records/17563574/files/prottrans.zip?download=1)) under:
 
 ```text
 prottrans/prottrans/Rostlab/prot_t5_xl_half_uniref50-enc/
@@ -443,4 +443,4 @@ No license file is included in this repository snapshot. Add an explicit license
 
 ## Keywords
 
-Protein-protein interactions, binding affinity, DG prediction, graph neural network, interpretable deep learning, multilevel feature interaction, residue-atom modeling, protein interface engineering
+Protein-protein interactions, binding affinity, DG prediction, graph neural network, interpretable deep learning, multilevel feature interaction, residue-atom modeling, protein interface `engineering`
